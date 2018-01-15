@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="255.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.kontroler">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1feeff" height="81.0" layoutX="15.0" layoutY="12.0" stroke="#0a0000" strokeLineCap="ROUND" width="228.0" />
+      <Label fx:id="tekst" contentDisplay="RIGHT" layoutX="125.0" layoutY="43.0" text="0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Button fx:id="equ" layoutX="192.0" layoutY="225.0" mnemonicParsing="false" onAction="#jednako" prefHeight="111.0" prefWidth="50.0" text="=" />
+      <Button fx:id="pom" layoutX="134.0" layoutY="286.0" mnemonicParsing="false" onAction="#pomnozi" prefHeight="50.0" prefWidth="50.0" text="*" />
+      <Button fx:id="sed" layoutX="14.0" layoutY="106.0" mnemonicParsing="false" onAction="#sedam" prefHeight="50.0" prefWidth="50.0" text="7" />
+      <Button fx:id="ce" layoutX="14.0" layoutY="165.0" mnemonicParsing="false" onAction="#cetiri" prefHeight="50.0" prefWidth="50.0" text="4" />
+      <Button fx:id="je" layoutX="14.0" layoutY="225.0" mnemonicParsing="false" onAction="#jedan" prefHeight="50.0" prefWidth="50.0" text="1" />
+      <Button fx:id="bri" layoutX="14.0" layoutY="286.0" mnemonicParsing="false" onAction="#brisi" prefHeight="50.0" prefWidth="50.0" text="C" />
+      <Button fx:id="tr" layoutX="134.0" layoutY="225.0" mnemonicParsing="false" onAction="#tri" prefHeight="50.0" prefWidth="50.0" text="3" />
+      <Button fx:id="pe" layoutX="73.0" layoutY="165.0" mnemonicParsing="false" onAction="#pet" prefHeight="50.0" prefWidth="50.0" text="5" />
+      <Button fx:id="nu" layoutX="75.0" layoutY="286.0" mnemonicParsing="false" onAction="#nula" prefHeight="50.0" prefWidth="50.0" text="0" />
+      <Button fx:id="dv" layoutX="75.0" layoutY="225.0" mnemonicParsing="false" onAction="#dva" prefHeight="50.0" prefWidth="50.0" text="2" />
+      <Button fx:id="os" layoutX="75.0" layoutY="105.0" mnemonicParsing="false" onAction="#osam" prefHeight="50.0" prefWidth="50.0" text="8" />
+      <Button fx:id="de" layoutX="134.0" layoutY="105.0" mnemonicParsing="false" onAction="#devet" prefHeight="50.0" prefWidth="50.0" text="9" />
+      <Button fx:id="sub" layoutX="192.0" layoutY="165.0" mnemonicParsing="false" onAction="#plus" prefHeight="50.0" prefWidth="50.0" text="+" />
+      <Button fx:id="min" layoutX="192.0" layoutY="106.0" mnemonicParsing="false" onAction="#minus" prefHeight="50.0" prefWidth="50.0" text="-" />
+      <Button fx:id="se" layoutX="133.0" layoutY="165.0" mnemonicParsing="false" onAction="#sest" prefHeight="50.0" prefWidth="50.0" text="6" />
+   </children>
+</Pane>
